@@ -5,13 +5,13 @@ public class Hello {
 		//Your Code Here
     Scanner sc=new Scanner(System.in);
     char C=sc.next().charAt(0);
-    if((C=='R')||(C=='r')){
+    if((C=='r')||(C=='R')){
         System.out.println("RED");
     }
-    else if((C=='G')||(C=='g')){
+    else if((C=='g')||(C=='G')){
         System.out.println("GREEN");
     }
-    else if((C=='B')||(C=='b')){
+    else if((C=='b')||(C=='B')){
         System.out.println("BLUE");
     }
     else{

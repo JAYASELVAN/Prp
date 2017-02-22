@@ -7,7 +7,7 @@ public class Hello {
     int M=sc.nextInt();
     int N=sc.nextInt();
     int S=N+M;
-    if((S%2==0){
+    if((S%2)==0){
         System.out.print("even");
     }
     else{

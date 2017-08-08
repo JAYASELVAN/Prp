@@ -5,10 +5,10 @@ public class Hello {
 		//Your Code Here
         int n,s,c;
         Scanner sc=new Scanner(System.in);
-        n=sc.nextInt();
         s=sc.nextInt();
+        n=sc.nextInt();
         LinkedList<String> ll=new LinkedList<String>();
-        for(int i=0;i<s;i++){
+        for(int i=0;i<n;i++){
             ll.add(sc.next());
         }
         c=sc.nextInt();
